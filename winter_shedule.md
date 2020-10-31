@@ -1,6 +1,6 @@
 # Hichens's Winter Shedule
 
-<img src="/Users/hichens/Hichens-NoteBook/main_pic/awttwaqrx.jpeg" alt="awttwaqrx" style="zoom:80%;" />
+<img src="main_pic/awttwaqrx.jpeg" alt="awttwaqrx" style="zoom:80%;" />
 
 ## 目标
 - 发**一篇**论文
