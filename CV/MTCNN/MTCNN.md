@@ -43,6 +43,7 @@ file_paths = [el for el in paths.list_files(img_dir)]
 os.path.basename # 获取文件名
 os.path.join(dir, filename)
 os.mkdir(dir) # 如果目录有多级，则创建最后一级，如果最后一级目录的上级目录有不存在的，则会抛出一个 OSError
+os.makedirs(dir, exist_ok=True) # 递归的创建文件
 os.path.exists(dir)
 
 ```
