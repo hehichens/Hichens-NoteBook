@@ -70,32 +70,3 @@ for object in all objects:
  
 
 参考 [link](https://github.com/ultralytics/yolov3/wiki/Train-Custom-Data)
-
-
-
-## 1.6 关于数据
-
-```python
-# 自定义迭代器
-class my_iter():
-    def __init__(self, csv_path, batch_size=1):
-        self.df = pd.read_csv(csv_path)
-        self.batch_size = batch_size
-        self.nF = len(self.df)
-        self.nB = math.ceil(self.nF / batch_size)
-        
-    def __iter__(self):
-        self.count = -1
-        return self
-    
-    def __next__(self):
-    	self.count += 1
-        if self.count == self.nB:
-			raise StopIteration
-        ...
-        return imgs, labels
-        
-    def __len__(self):
-        return len(self.data)
-```
-
