@@ -72,6 +72,8 @@ args = main_arg_parser.parse_args()
 """
 >>> python main.py train --param *
 """
+
+
 ```
 
 
@@ -126,3 +128,26 @@ torch.set_grad_enabled(phase == 'train')
 ssh port:adress_port hostname@ip_adress
 ```
 
+## visdom
+
+- 可视化训练过程
+
+- 可以通过ssh远程监视
+
+```python
+import visdom
+vis = visdom.Visdom(server, port, env) # egg: server=127.0.0.1， port=8096, env='main'
+if not vis.check_connection():
+    create_visdom_connections
+    
+def create_visdom_connections():
+    """If the program could not connect to Visdom server, this function will start a new server at port < self.port > """
+    cmd = sys.executable + ' -m visdom.server -p %d &>/dev/null &' % port
+    print('\n\nCould not connect to Visdom server. \n Trying to start a server....')
+    print('Command: %s' % cmd)
+    Popen(cmd, shell=True, stdout=PIPE, stderr=PIPE)
+```
+
+## dominate
+
+- 生成 html 文件
