@@ -16,8 +16,8 @@
 ## expriment 
 - man<->woman 
 - young<->old
--
--
+
+
 
 ## 论文笔记
 [参考](https://blog.csdn.net/kingsleyluoxin/article/details/107828908)
@@ -25,6 +25,26 @@
 
 
 # 知识点
+## 对抗损失（DAN Loss）
+[](https://neptune.ai/blog/gan-loss-functions)
+### min-max loss
+$$
+E_x[log(D(x))] + E_z[log(1 - D(G(z)))]
+$$
+Generator试图最小化该函数， Discriminator试图最大化该函数
+
+### Discriminator Loss
+Discriminator 对真实数据（real data）和生成的（fake data）进行分类, 通过最大化如下函数实现：
+![](https://lh4.googleusercontent.com/yAT4vN1GFT8D0QUDMAReZS0BLD_vi7KZc-AE02RFWI9ZVSQHLqKTTthtgx_BK-DlKOeFDgtkA3byl9VMHPEI0r5ZTn1nKYLbeEflJuspuykXcNMOmEmXomWZzMwdzUBbxf-BlkjJ)
+- $log(D(x))$ 真实数据的正确分类
+- $log(1 - D(G(z)))$ 将来自生成器的假数据正确分类
+
+### Generator Loss
+Generator 从随机噪声生成结果来欺骗Discriminator， 因此，如果Generator欺骗了Discriminator则得到奖励，反之则被惩罚。通过最小化如下函数实现：
+![](https://lh6.googleusercontent.com/HELs4L-7j4GKYHus3PNWUuWxd5MhoOiY1Gp0MDB71QHi4_2WueJZYApJE2Emsk6SHEdgSTjd0f_ey9OcYAOY2mfMsQb5m37zHrypxml46_6i510NPKVPxUyfEAdRHuCatnfmeNe_)
+
+
+
 ## 对比学习(Contrastive Learning)
 [链接](https://zhuanlan.zhihu.com/p/141172794)
 ### 自监督学习
@@ -40,16 +60,10 @@ egg:画一张美元，根据印象画出来的和对照着美元画出来的结�
 ### 对比学习一般范式
 对任意数据  ，对比学习的目标是学习一个编码器$f$使得
 $$
-score(f(x), f(x^+)) >> score(f(x), f(x)^-)
+score(f(x), f(x^+)) >> score(f(x), f(x^-)）
 $$
 其中$x^+$  是和 $x$ 相似的正样本，$x^-$  是和 $x$ 不相似的负样本，score 是一个度量函数来衡量样本间的相似度
 
-
-## 循环一致性(Cycle-Consistency)
-[link](https://zhuanlan.zhihu.com/p/70592331)
-在CycleGAN中， 没有配对数据的情况下实现两个 domain 的 Image-to-Image Translation。
-假设一张$X_domain$的图片$x$  翻译到 $Y_domain$  得到图片$F(x)$  ，再从$Y_domain$ 翻译回$X_domain$ 得到 $G(F(x))$ ，类似地有图片$y$  和$F(G(y))$  ；那么$x$ 和$G(F(x))$  ，$y$  和 $F(G(x))$  应该是一模一样的。它们之间的差异就可以作为一个监督信号：
-![](https://www.zhihu.com/equation?tex=%5Cmathcal%7BL%7D_%7B%5Ctext%7Bcyc%7D%7D%3D%5Cmathbb%7BE%7D_%7Bx+%5Csim+p_%5Ctext%7Bdata%7D%28x%29%7D%5B%5Cleft%5C%7C+G%28F%28x%29%29-x+%5Cright%5C%7C%5D+%2B+%5Cmathbb%7BE%7D_%7By+%5Csim+p_%5Ctext%7Bdata%7D%28y%29%7D%5B%5Cleft%5C%7C+F%28G%28y%29%29-y+%5Cright%5C%7C%5D)
 
 
 ## UNIT
