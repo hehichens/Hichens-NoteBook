@@ -38,7 +38,7 @@ class dataset(Dataset):
         pass
     def __len__(self):
         return len(data)
-   	def __getitem__(self, index):
+    def __getitem__(self, index):
         return single_data
     
 ```
