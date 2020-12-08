@@ -106,6 +106,14 @@ importlib.import_module('dir.filename') # 绝对导入
 importlib.import_module('.filename', package='dir') # 相对导入
 ```
 
+## 2.4 网络构造
+```python
+## 使用列表灵活构造网络
+model = []
+if condition:
+    model.append(nn.Linear())
+model = nn.Sequential(*model)
+```
 
 
 # 3. pytorch 语法
@@ -116,7 +124,16 @@ torch.set_grad_enabled(phase == 'train')
 
 ```
 
+## convlation
+### nn.Conv2d
+$$
+out = \frac{in + 2 \times padding - kernel\_size}{stride}
+$$
 
+### nn.ConvTranspose2d
+$$
+out = (in - 1) \times stride - 2 \times padding + kernel\_size
+$$
 
 # 4. 其他
 

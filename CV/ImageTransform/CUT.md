@@ -16,8 +16,7 @@
 ## expriment 
 - man<->woman 
 - young<->old
--
--
+
 
 ## 论文笔记
 [参考](https://blog.csdn.net/kingsleyluoxin/article/details/107828908)
@@ -40,7 +39,7 @@ egg:画一张美元，根据印象画出来的和对照着美元画出来的结�
 ### 对比学习一般范式
 对任意数据  ，对比学习的目标是学习一个编码器$f$使得
 $$
-score(f(x), f(x^+)) >> score(f(x), f(x)^-)
+score(f(x), f(x^+)) >> score(f(x), f(x^-))
 $$
 其中$x^+$  是和 $x$ 相似的正样本，$x^-$  是和 $x$ 不相似的负样本，score 是一个度量函数来衡量样本间的相似度
 
@@ -48,7 +47,7 @@ $$
 ## 循环一致性(Cycle-Consistency)
 [link](https://zhuanlan.zhihu.com/p/70592331)
 在CycleGAN中， 没有配对数据的情况下实现两个 domain 的 Image-to-Image Translation。
-假设一张$X_domain$的图片$x$  翻译到 $Y_domain$  得到图片$F(x)$  ，再从$Y_domain$ 翻译回$X_domain$ 得到 $G(F(x))$ ，类似地有图片$y$  和$F(G(y))$  ；那么$x$ 和$G(F(x))$  ，$y$  和 $F(G(x))$  应该是一模一样的。它们之间的差异就可以作为一个监督信号：
+假设一张$X_{domain}$的图片$x$  翻译到 $Y_{domain}$  得到图片$F(x)$  ，再从$Y_{domain}$ 翻译回$X_{domain}$ 得到 $G(F(x))$ ，类似地有图片$y$  和$F(G(y))$  ；那么$x$ 和$G(F(x))$  ，$y$  和 $F(G(x))$  应该是一模一样的。它们之间的差异就可以作为一个监督信号：
 ![](https://www.zhihu.com/equation?tex=%5Cmathcal%7BL%7D_%7B%5Ctext%7Bcyc%7D%7D%3D%5Cmathbb%7BE%7D_%7Bx+%5Csim+p_%5Ctext%7Bdata%7D%28x%29%7D%5B%5Cleft%5C%7C+G%28F%28x%29%29-x+%5Cright%5C%7C%5D+%2B+%5Cmathbb%7BE%7D_%7By+%5Csim+p_%5Ctext%7Bdata%7D%28y%29%7D%5B%5Cleft%5C%7C+F%28G%28y%29%29-y+%5Cright%5C%7C%5D)
 
 
@@ -81,15 +80,65 @@ $$
 ![](https://pic4.zhimg.com/v2-39bc46e9c47ff1698132d49a24727f17_r.jpg)
 
 
+# 代码笔记
 
 
 
+## 概览
+
+- data：处理各种格式的数据处理类
+- datasets：存放数据
+- experiments：参数固定好的实验
+- models：存放模型
+  - base_model：继承ABC抽象模型
+  - others：继承base_model
+- options:存放超参数
+- results：存放结果
+- utils：可视化，获取数据，一些工具，etc
+- train.py
+- test.py
 
 
 
+## 模型
+
+- `BaseModel`继承 abc 抽象类，**具体类中就可以通过调用`super()`重用抽象方法的实现**
+- 定义模型直接调用封装好了的网络，损失函数， 优化器，tc
+- 根据模型名称， 使用`importlib`动态导出模型
 
 
 
+### 网络
+
+#### Generator
+
+- ResnetGenerator
+
+- UnetGenerator
+
+- StyleGAN2Generator
+
+- G_Resnet
+
+  
+
+#### Discriminator
+
+- NLayerDiscriminator
+- PixelDiscriminator
+- StyleGAN2Discriminator
+
+
+
+### 损失函数
+
+- criterionGAN
+    - MSELoss
+    - BCEWithLogitsLoss
+- criterionNCE
+    - PatchNCELoss
+- criterionIdt
+    - L1Loss
 
 
 
