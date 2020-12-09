@@ -17,11 +17,6 @@
 - man<->woman 
 - young<->old
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 83297b4e1aa8ec97c81f05fab5f652cf08c6e4b2
-
 ## 论文笔记
 [参考](https://blog.csdn.net/kingsleyluoxin/article/details/107828908)
 
@@ -61,26 +56,15 @@ egg:画一张美元，根据印象画出来的和对照着美元画出来的结�
 ![](https://pic2.zhimg.com/v2-1ea66426d44cf9a71ba6917e56076ad9_r.jpg)
 
 ### 对比学习一般范式
-对任意数据  ，对比学习的目标是学习一个编码器$f$使得
+对任意数据 ，对比学习的目标是学习一个编码器$f$使得
+
 $$
-<<<<<<< HEAD
 score(f(x), f(x^+)) >> score(f(x), f(x^-))
-=======
-score(f(x), f(x^+)) >> score(f(x), f(x^-)）
->>>>>>> 83297b4e1aa8ec97c81f05fab5f652cf08c6e4b2
 $$
+
+
 其中$x^+$  是和 $x$ 相似的正样本，$x^-$  是和 $x$ 不相似的负样本，score 是一个度量函数来衡量样本间的相似度
 
-
-<<<<<<< HEAD
-## 循环一致性(Cycle-Consistency)
-[link](https://zhuanlan.zhihu.com/p/70592331)
-在CycleGAN中， 没有配对数据的情况下实现两个 domain 的 Image-to-Image Translation。
-假设一张$X_{domain}$的图片$x$  翻译到 $Y_{domain}$  得到图片$F(x)$  ，再从$Y_{domain}$ 翻译回$X_{domain}$ 得到 $G(F(x))$ ，类似地有图片$y$  和$F(G(y))$  ；那么$x$ 和$G(F(x))$  ，$y$  和 $F(G(x))$  应该是一模一样的。它们之间的差异就可以作为一个监督信号：
-![](https://www.zhihu.com/equation?tex=%5Cmathcal%7BL%7D_%7B%5Ctext%7Bcyc%7D%7D%3D%5Cmathbb%7BE%7D_%7Bx+%5Csim+p_%5Ctext%7Bdata%7D%28x%29%7D%5B%5Cleft%5C%7C+G%28F%28x%29%29-x+%5Cright%5C%7C%5D+%2B+%5Cmathbb%7BE%7D_%7By+%5Csim+p_%5Ctext%7Bdata%7D%28y%29%7D%5B%5Cleft%5C%7C+F%28G%28y%29%29-y+%5Cright%5C%7C%5D)
-
-=======
->>>>>>> 83297b4e1aa8ec97c81f05fab5f652cf08c6e4b2
 
 ## UNIT
 - [link](https://zhuanlan.zhihu.com/p/52583263)
