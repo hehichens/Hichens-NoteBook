@@ -3,13 +3,27 @@
 - [论文读后感](https://blog.csdn.net/kid_14_12/article/details/85871965)
 - [源码地址](https://github.com/abhiskk/fast-neural-style)
 
+参考：
 
+- [Perceptual Losses..理解](https://blog.csdn.net/qq_33590958/article/details/96122789)
 
 # 内容摘要
 
 ## 1. 网络结构
 
+下面这个网络图是论文的精华所在。图中将网络分为Transform网络和Loss网络两种，在使用中，Transform网络用来对图像进行转换，它的参数是变化的，而Loss网络，则保持参数不变，Transform的结果图，风格图和内容图都通过Loss Net得到每一层的feature激活值，并以之进行Loss计算。
+
 ![](https://img-blog.csdnimg.cn/20190106195709967.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2tpZF8xNF8xMg==,size_16,color_FFFFFF,t_70)
+
+#### **网络细节**
+
+1. 不使用pooling层，而是使用strided和fractionally strided卷积来做down sampling和up sampling
+2. 使用了五个residual blocks
+3.  除了输出层之外的所有的非residual blocks后面都跟着spatial batch normalization和ReLU的非线性激活函数。
+4. 输出层使用一个scaled tanh来保证输出值在[0, 255]内。
+5. 第一个和最后一个卷积层使用9×9的核，其他卷积层使用3×3的核。
+
+
 
 ## 2. Perceptual Loss 函数
 
