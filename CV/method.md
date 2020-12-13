@@ -127,7 +127,7 @@ torch.set_grad_enabled(phase == 'train')
 ## convlation
 ### nn.Conv2d
 $$
-out = \frac{in + 2 \times padding - kernel\_size}{stride}
+out = \frac{in + 2 \times padding - kernel\_size}{stride} + 1
 $$
 
 ### nn.ConvTranspose2d
