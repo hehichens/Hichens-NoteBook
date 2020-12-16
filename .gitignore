@@ -35,4 +35,4 @@ ENV/
 *.sublime-project
 
 ## vscode
-.vscode
+.vscode/
