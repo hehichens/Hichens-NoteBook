@@ -61,11 +61,11 @@ def Write2md(dirs='../'):
     if os.path.exists(save_path):
         os.remove(save_path)
     day_list = [0, 2, 4, 8, 16, 32]
-    for i, day in enumerate(day_list[:-1]):
+    for i, day in enumerate(day_list):
         f = open(save_path, 'a')
-        f.write("## {} - {} 天\n".format(day_list[i], day_list[i+1]))
+        f.write("## {} 天\n".format(day_list[i]))
         for shedule in file_shedule:
-            if day_list[i]<= shedule[0] < day_list[i+1]:
+            if shedule[0] == day_list[i]:
                 filename = shedule[1].split("/")[-1]
                 url_path = os.path.join(url, shedule[1][3:])
                 f.write("- [{}]({})\n".format(filename, shedule[1][3:]))
