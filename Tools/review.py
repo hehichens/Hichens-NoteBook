@@ -57,6 +57,7 @@ def Write2md(dirs='../'):
 
         
     save_path = "../review.md"
+    url = "https://github.com/hehichens/Hichens-NoteBook/blob/master/"
     if os.path.exists(save_path):
         os.remove(save_path)
     day_list = [0, 2, 4, 8, 16, 32]
@@ -65,7 +66,8 @@ def Write2md(dirs='../'):
         f.write("## {} - {} 天\n".format(day_list[i], day_list[i+1]))
         for shedule in file_shedule:
             if day_list[i]<= shedule[0] < day_list[i+1]:
-                f.write("- [{}]({})\n".format(shedule[1].split("/")[-1], shedule[1]))
+                filename = shedule[1].split("/")[-1]
+                f.write("- [{}]({})\n".format(filename, url + shedule[1][3:]))
         f.write("\n")
         f.write("\n")
         f.close()
