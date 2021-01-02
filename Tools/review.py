@@ -67,7 +67,7 @@ def Write2md(dirs='../'):
         for shedule in file_shedule:
             if day_list[i]<= shedule[0] < day_list[i+1]:
                 filename = shedule[1].split("/")[-1]
-                f.write("- [{}]({})\n".format(filename, url + shedule[1][3:]))
+                f.write("- [{}]({})\n".format(filename, shedule[1][1:]))
         f.write("\n")
         f.write("\n")
         f.close()
