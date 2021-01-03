@@ -44,7 +44,7 @@ def print_date():
                 print()
 
 
-def Write2md(dirs='../'):
+def Write2md(dirs='./'):
     file_shedule = []
     for root, dirs, files in os.walk(dirs):
         files = [f for f in files if not f[0] == '.']
@@ -56,7 +56,7 @@ def Write2md(dirs='../'):
                 file_shedule.append([days, file_path])
 
         
-    save_path = "../review.md"
+    save_path = "./review.md"
     url = "https://github.com/hehichens/Hichens-NoteBook/blob/master/"
     if os.path.exists(save_path):
         os.remove(save_path)
