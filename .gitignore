@@ -36,3 +36,6 @@ ENV/
 
 ## vscode
 .vscode/
+
+## Out file
+.Out/
