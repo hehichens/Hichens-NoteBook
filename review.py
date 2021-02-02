@@ -60,7 +60,7 @@ def Write2md(dirs='./'):
     url = "https://github.com/hehichens/Hichens-NoteBook/blob/master/"
     if os.path.exists(save_path):
         os.remove(save_path)
-    day_list = [0, 2, 4, 8, 16, 32]
+    day_list = [0, 1, 2, 4, 8, 16, 32]
     for i, day in enumerate(day_list):
         f = open(save_path, 'a')
         f.write("## {} 天\n".format(day_list[i]))
