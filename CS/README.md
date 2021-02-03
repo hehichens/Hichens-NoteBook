@@ -7,7 +7,11 @@
 
 参考课程：华盛顿大学[CSE351: The Hardware/Software Interface](http://courses.cs.washington.edu/courses/cse351/)
 
-参考书籍：[深入理解计算机系统(CSAPP)](http://product.dangdang.com/24106647.html)|[课本答案](https://legacy.gitbook.com/book/dreamanddead/csapp-3e-solutions)
+参考书籍：
+
+- [深入理解计算机系统(CSAPP)](http://product.dangdang.com/24106647.html)
+- [CSAPP课本答案](https://legacy.gitbook.com/book/dreamanddead/csapp-3e-solutions)
+- [MCU 15-231课程PPT](http://www.cs.cmu.edu/afs/cs/academic/class/15213-f15/www/schedule.html)
 
 参考视频：
 
