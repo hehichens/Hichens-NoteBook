@@ -1,5 +1,4 @@
-
-![](./main_pic/logo.png)
+<img src="./main_pic/logo.png" style="zoom:100%, margin:auto;" />
 
 <div align='center' ><font size='70'>Hichens 的 📒</font></div>
 
