@@ -2,11 +2,8 @@
 
 
 
-<hr>
-
 # :middle_finger: [每日复习](./review.md:middle_finger:)
 
-<hr>
 
 ## 习惯养成
 
@@ -17,14 +14,13 @@
 - 每次只认真做一件事
 - 每日坚持阅读，时间不需要很长
 
-<hr>
+
 
 ## 娱乐
-- [:musical_note:我的乐单](./Read/music.md)
-- [:movie_camera:我的影单](./Read/movie.md)
-- [:books:我的书单](./Read/book.md)
+- [:musical_note: 我的乐单](./Read/music.md)
+- [:movie_camera: 我的影单](./Read/movie.md)
+- [:books: 我的书单](./Read/book.md)
 
-<hr>
 
 
 
