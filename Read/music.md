@@ -1,0 +1,239 @@
+## 歌手或乐队:man_singer:
+
+[《知乎周刊：中国摇滚》](./Note/《中国摇滚--知乎周刊》.md)
+
+[《如何假装懂音乐》](./Note/《如何假装懂音乐》.md)
+
+- 崔健 工人体育场的《一无所有》开启了中国摇滚
+- 草东没有派对
+- 薛岳 《摇滚舞台》
+- 台湾民谣三君子： 胡德夫，李双泽， 杨弦
+- 许冠杰 粤语流行音乐教父， 《鬼马双星》
+- Beyond 《大地》， 《乐与怒》
+- The Lotus
+- The Playboys
+- 魔岩三杰 张楚、何勇、窦唯
+- 唐朝乐队
+- 老哥 王昕波
+- 万星
+- 李世超
+- 马晓艺
+- 阿里斯（Alice）
+- 黑豹
+- 轮回（Again）
+- 郑钧
+- 蝗虫及 丁武
+- 大陆 
+- 七合板 崔健
+- 不倒翁 
+- 天堂
+- 零点
+- ADO
+- 白天使
+- 五月天
+- 呼吸
+- 唐朝乐队 中国摇滚第一阶段最伟大的乐队 中国第一支重金属乐队
+- 清醒乐队
+- 面孔
+- 青铜器
+- 眼镜蛇
+- 报童 何勇
+- 黑马 罗琦
+- 黄种人
+- 做梦 窦唯
+- 黑马->指南针 罗琦 《无法逃脱》 《随心所欲》
+- 超载 高旗
+- 赵刚
+- 赵牧阳 《流浪》
+- 艾迪
+- 王磊
+- 苍狼 腾格尔
+- 鲍家街43号
+- 飞 许巍
+- 死亡钟 死亡金属风格创造者
+- 地下婴儿 朋克音乐代表乐队
+- 臧天朔
+- 达达 唯一一个签约华纳的乐队 彭坦 英式摇滚
+- 新裤子
+- 沙子
+- 盘古 
+- 苍蝇
+- 李难
+- 花儿 平均年龄 16岁
+- 秋天的虫子 哥特+工业摇滚
+- 腰
+- 雷神
+- 痛仰
+- 吴虹飞
+- 山人
+- 杀戮
+- 水木年华
+- 逃跑计划
+- 谢天笑 中国摇滚现场之王
+- 李志
+- 后海大鲨鱼
+- 野孩子
+- 丢火车
+- 左右
+- 超载
+- 子曰
+- 麦田守望者
+- 舌头
+- 木马
+- PK14
+- 苏阳
+- 万晓利
+- 美好药店
+- 五条人
+- 万能青年旅店
+
+- queen 华丽摇滚
+- Scorpion 重金属
+- REM 另类
+- Tom Petty 软摇滚
+- Dire Straits 根源摇滚
+- Chuck Berry 摇滚乐之父
+- Johnny
+- Ringo Starr
+- Paul McCartney
+- George Harrison
+- John Lennon
+- Bob Dylan 美国民谣摇滚
+- Beatles 英伦
+- The Beach Boys
+- Marvin Gays
+- Davis
+- MJ
+- Van Morrison
+- Nirvana
+- ColdPlay
+- Green day
+- One Public
+- Oassic
+- Blur
+- Pink Floyd
+- Guns N roses
+- Suede
+- Metallica
+- Moment of Glory
+- KISS
+- Legend of Phoenix
+- P.O.D 基督新金属
+- Johnny Cash 《奇异恩典 Amazing Grace》
+- Nirvana（涅槃）：蓝调（blues），《where did you seep last night》
+- Lead Belly（铅肚）：蓝调传奇大师
+- Rober Johnson：二战前的蓝调明星， “三角洲蓝调之王”
+- Louis Jordan： “跳跃蓝调”， 《Take Me Home， Country Road》
+- The Carter Family：乡村音乐， 《Wabash Cannonball》，《When the World‘s Fire》
+- Bob Wills： 乡村音乐+爵士乐
+- Woody Guthrie：《Tom Joad》，《this land is your land》， “this machine kills fascists”
+- Pate Seeger：美国民谣最重要的人
+- Bob Dylan：《Blowin’ in the wind》
+- Elvis Presley：猫王，摇滚乐明星
+- Buddy Holly：中期美国摇滚乐代表
+- Little Richard：早期摇滚乐活化石
+- Jerry Lee Lewis
+- MC5：《Kick out the jams》
+- The Beatles
+- Toots and the Maytals：提出雷鬼
+- Bob Mrley：雷鬼推动者，《No Woman，No Cry》，脏脏辫
+- New York Dolls
+- Sex pistols
+- Sid Vicious， Johnny Rotten（John Lydon）：朋克鼻祖
+- The Clash
+- Grandmaster Flash：嘻哈界活化石
+- Run-D.M.C
+- LL Cool J
+- Beastie Boys：《Licensed to |||》
+- Eminem：嘻哈火遍全球
+- Lil Jon “旷克之王”
+- Purple Sound（Lazer Hip-Hop）
+- The Velvet Underground ：艺术摇滚（中国：清醒、苍蝇）
+- FAUST
+- The Doors：嬉皮时代
+- The Soft Machine：重金属（大男子主义音乐）
+- Led Zeppelin
+- Black Sabbath
+- Deep Purple
+- Judas Priest
+- Slyer：死亡金属
+- Possessed：《Seven Churches》 第一张死亡金属专辑
+- LinkinPark：新金属代表，主唱（Bennington）（中国：面孔、夜叉、扭曲机器、痛仰）
+- Anthrax（炭疽）：《i'm the man》
+- Black Flag：《Damaged》
+- Agnostic Front：《Cause for Alarm》
+- Atreyu：《As I Lay Dying》
+- Lead Sails Paper Anchor：《Nothing Left》
+- Bullet for my Valentine：《Scream Aim Fire》
+- Throbbing Gristle：工业音乐，《The Second Annual》
+- KMFDM：德国汉堡的乐队
+- Ministry：《Nine Inch Nails》，《Psalm 69》
+- Trent Reznor：华丽摇滚，（中国：二手玫瑰）
+- YMO
+- Daft Punk：《random access memories》
+- Giorgio Moroder：
+- Donna Summer
+- Nile Rodgers
+- Village People：《YMCA》
+- Juan Atkins
+- Kevin Saunderson
+- Derrick May
+- Paul Van Dyk：第一位电子音乐明星
+- Tony Humphries：美国车库舞曲
+- Ed Rush：丛林舞曲风格
+
+
+
+
+
+
+
+## 专辑或曲目:musical_score:
+
+- 《Sgt. Pepper's Longly Heart Club Band》摇滚乐最伟大的专辑
+- 《新长征路上的摇滚》
+- 《解决》
+- 《红旗下的蛋》
+- 香港红磡《摇滚中国乐势力》
+- 《呼吸》
+- 《黑豹》
+- 《中国火1》
+- 《摇滚北京1》
+- 《唐朝》
+- 《赤裸裸》
+- 《垃圾场》
+- 四张神级专辑 
+  - 《垃圾场》--何勇
+  - 《黑梦》--窦唯
+  - 《孤独的人是可耻的》--张楚（民谣诗人）
+  - 《红旗下的蛋》--崔健
+- 《艳阳天》
+- 《造飞机的工厂》 中国摇滚二十大唱片之一
+- 《我去2000》 黑暗圣明经典
+- 《生如夏花》
+- 《滚石史上最伟大xxx》
+- 《出门人》王磊
+- 《红星一号》由北京红星音乐生产社编发的一个记录当时摇滚新生力量的合集
+- 《现代化》蔚华
+- 《往生》王勇
+- 《第一册》子曰
+- 《在别处》许巍
+- 《摩登天空1》
+- 《人人都有个小板凳，我的不带入二十一世纪》 胡吗个
+- 《木马》 木马
+- 《失乐园》金武林
+- 《超载》超载乐队
+- 《走失的主人》NO乐队
+- 《庙会之旅》NO乐队
+- 《夜》王磊
+- 《广州的春梦》王磊
+- 《鲍家街43号》
+- 《The fly 1》苍蝇乐队
+- 《恋爱中的苍蝇》苍蝇乐队
+- Amazing Grace ：Mahalia Jackson、Johnny Cash
+- 《我有一个梦想》 世界上第一段freestyle，嘻哈起源于马丁路德金
+- Oh Red：Harlem Ham fats
+- Nuggets：车库摇滚+迷幻摇滚
+- Do the Reggay ： 雷鬼，Toots and the Maytals
+- The White Album
+- 《Dance 2 Trance》：我们带着和平走来，第一支迷幻舞曲
