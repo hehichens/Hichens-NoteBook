@@ -1,6 +1,6 @@
-<img src="./main_pic/logo.png" style="zoom:100%, margin:auto;" />
+<img src="./main_pic/logo.png" style="zoom:100%, align:center" />
 
-<div align='center' ><font size='70'>Hichens 的 📒</font></div>
+<div align='center' ><font size=70>Hichens 的 📒</font></div>
 
 
 
