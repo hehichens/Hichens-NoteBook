@@ -1,14 +1,33 @@
-# Hichens's NoteBook
 
-![Hichens-NoteBook](https://socialify.git.ci/hehichens/Hichens-NoteBook/image?font=Source%20Code%20Pro&language=1&owner=1&pattern=Charlie%20Brown&stargazers=1&theme=Light)
+![](./main_pic/logo.png)
 
-Hichens's Note Book
+<div align='center' ><font size='70'>Hichens 的 📒</font></div>
 
-# - :fire:[Review](./review.md):fire:
 
-# - [:musical_note:Music](./Read/Note/《中国摇滚--知乎周刊》.md):musical_note:
 
-# - :movie_camera:[Movie](./Read/movie.md):movie_camera:
+<hr>
 
-Contact me: hichens@qq.com | hichens1559576916@gmail.com
+# :middle_finger: [每日复习](./review.md:middle_finger:)
+
+<hr>
+
+## 习惯养成
+
+- 早睡早起（8点前起，1点前睡觉）
+- 每天认真听两首歌
+- 每天健身锻炼一会儿
+- 每天花点时间打坐
+- 每次只认真做一件事
+- 每日坚持阅读，时间不需要很长
+
+<hr>
+
+## 娱乐
+- [:musical_note:我的乐单](./Read/music.md)
+- [:movie_camera:我的影单](./Read/movie.md)
+- [:books:我的书单](./Read/book.md)
+
+<hr>
+
+
 
