@@ -2,7 +2,7 @@
 
 
 
-# :middle_finger: [每日复习](./review.md:middle_finger:)
+# :middle_finger: [每日复习](./review.md)
 
 
 ## 习惯养成
